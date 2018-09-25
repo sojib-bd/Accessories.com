@@ -1,0 +1,124 @@
+*{margin:0;padding:0;outline: 0;}
+body{font-family: arial;font-size: 14px;line-height: 18px;background-color:#212620}
+.clear{overflow: hidden;}
+.head-section{height:200px;}
+.navigationbar{background: #333;overflow:hidden;padding:15px}
+.navigationbar a{text-decoration:none;padding:14px 16px;font-size:17px;color:#f2f2f2;}
+.navigationbar a:hover{background-color:#ddd;color:black}
+.navigationbar a.active:hover{background-color:#4CAF50;color:white}
+.slideshow-container{height:400px;padding-top:23px}
+.mySlides {display:none}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.gallary::after{content:"";clear:both;display:table}
+.gallary{height:230px;padding-top:80px}
+.gallary>.picture{padding:0 8px}
+.picture{float:left;width:300px;padding:10px;}
+img.hover-shadow {
+  transition: 0.3s
+}
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.product-overview{height:500px;padding-top:100px}
+.top{text-align:center;font-size:40px;text-shadow:2px 2px 4px #000000;color:white;font-family: -webkit-pictograph}
+.pad{padding:10px;font-family: -webkit-pictograph}
+.laptop-overview{padding-left:30px;font-size:19px;padding-top: 30px;color:white;}
+.laptop-per{width:90%;background-color:#D9534F;padding:10px;color:white;text-align:right;font-size:18px;}
+.keyboard-overview{padding-left:30px;font-size:19px;padding-top: 20px;color:white;}
+.keyboard-per{width:80%;background-color:#F0AD4E;padding:10px;color:white;text-align:right;font-size:18px;}
+.gamingPc-overview{padding-left:30px;font-size:19px;padding-top: 20px;color:white;}
+.gaming-per{width:65%;background-color:#5BC0DE;padding:10px;color:white;text-align:right;font-size:18px;}
+.Mouse-overview{padding-left:30px;font-size:19px;padding-top: 20px;color:white;}
+.mouse-per{width:60%;background-color:#5CB85C;padding:10px;color:white;text-align:right;font-size:18px;}
+.form{text-align:center;padding-top:20px;color:white;font-size:18px}
+.form h3{font-family:-webkit-pictograph}
+button{background-color:purple;padding:10px;margin-bottom:20px;border-radius:10px}
+button a{text-decoration:none;color:white;padding:20px;font-size:18px;font-family:-webkit-pictograph}
+button:hover{background-color:#5CB85C}
+
+.footersection{background:#615966;height:250px;color:white;}
+.location{float:left;padding:50px;padding-left: 80px}
+.location h3{padding:10px;text-align:center}
+.location p{text-align:center;opacity:0.6;line-height:2}
+.explore{float:left;padding:50px;padding-left: 100px}
+.explore h3{padding:10px;text-align:center}
+.explore p{text-align:center;opacity:0.6;line-height:2}
+.community{float:left;padding:50px;padding-left: 150px}
+.community h3{padding:10px;text-align:center}
+.community p{text-align:center;opacity:0.6;line-height:2}
+.company{padding:50px;float:left;padding-left: 150px}
+.company h3{padding:10px;text-align:center}
+.company p{text-align:center;opacity:0.6;line-height:2}
+
+CFEAF5

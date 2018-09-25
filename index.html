@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tech Shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	 <div class="head-section clear">
+	 	<img src="images/head4.jpg">
+	 </div>
+	 <div class="navigationbar clear">
+	 	<a href="#" class="active">Home</a>
+	 	<a href="About.html">About</a>
+	 	<a href="Computer Review.html">Computer Review</a>
+	 	<a href="Laptop Review.html">Laptop Review</a>
+	 	<a href="Gaming Accessories Video.html">Gaming Accessories Video</a>
+	 	<a href="Computer Accessories.html">Laptop Accessories Video</a>
+	 	<a href="Gaming Setup video.html">Gaming Setup Video</a>
+	 </div>
+	 <div class="slideshow-container clear">
+	 	<div class="mySlides fade">
+	 		<img src="images/1.jpg" style="width:100%">
+	 	</div>
+	 	<div class="mySlides fade">
+	 		<img src="images/2.jpg" style="width:100%">
+	 	</div>
+	 	<div class="mySlides fade">
+	 		<img src="images/3.jpg" style="width:100%">
+	 	</div>
+	 	<div class="mySlides fade">
+	 		<img src="images/4.jpg" style="width:100%">
+	 	</div>
+	 	<div class="mySlides fade">
+	 		<img src="images/5.jpg" style="width:100%">
+	 	</div>
+	 	<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+	 	<a class="next" onclick="plusSlides(1)">&#10095</a>
+	 	
+	 </div>
+	 <div style="text-align: center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span>
+		  <span class="dot" onclick="currentSlide(5)"></span>
+	 </div>
+	 <script type="text/javascript" src="script.js"></script>
+	 <div class="gallary clear">
+	 	<div class="picture clear">
+	 		<img src="images/laptop.jpg" alt="laptop" style="width: 100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture  clear">
+	 		<img src="images/keyboarb.jpg" alt="keyboarb" style="width: 100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture  clear">
+	 		<img src="images/all.jpg" alt="all Accessories" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture clear">
+	 		<img src="images/pendrive.jpg" alt="pendrive" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	 	</div>
+	 </div>
+	 <div class="gallary clear">	
+	 	<div class="picture clear">
+	 		<img src="images/game.jpg" alt="game" style="width: 100%"onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture clear">
+	 		<img src="images/headphone.jpg" alt="headphone" style="width: 100%"onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture  clear">
+	 		<img src="images/router.jpg" alt="router" style="width: 100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	 	</div>
+	 	<div class="picture  clear">
+	 		<img src="images/sound.jpg" alt="soundbox" style="width: 100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	 	</div>
+	 </div>
+	 <div class="product-overview clear">
+	 	<h1 class="top">Top 4 Product Sell List</h1>
+	 	<div class="laptop-overview clear">
+	 		<h4 class="pad">Laptop</h4>
+	 		<div class="laptop-per clear">90%</div>
+	 	</div>
+	 	<div class="keyboard-overview clear">
+	 		<h4 class="pad">keyboard</h4>
+	 		<div class="keyboard-per clear">80%</div>
+	 	</div>
+	 	<div class="gamingPc-overview clear">
+	 		<h4 class="pad">Gaming PC</h4>
+	 		<div class="gaming-per clear">65%</div>
+	 	</div>
+	 	<div class="Mouse-overview clear">
+	 		<h4 class="pad">Mouse</h4>
+	 		<div class="mouse-per clear">60%</div>
+	 	</div>
+
+	 </div>
+	 <div class="form">
+	 		<h3>If you want to contact please fill up the Form</h3><br>
+	 		<button><a href="contact.html" target="_blank">Contact Form</a></button>
+	 </div>
+	 
+	 <div class="footersection">
+	 	<div class="location">
+	 		<h3>Main Shop Location</h3>
+	 		<p>Boshundhara Shopping Moll<br> Level-5 ,shop No.65<br> Panthopath,Dhaka</p>
+	 	</div>
+	 	<div class="explore">
+	 		<h3>Explore</h3>
+	 		<p>Computer Review <br>Laptop Review<br>Computer Accessories<br>Gaming Accessories</p>
+	 	</div>
+	 	<div class="community">
+	 		<h3>Community</h3>
+	 		<p>FAQ<br>Support<br>Forum</p>
+	 	</div>
+	 	<div class="company">
+	 		<h3>Company</h3>
+	 		<p>About Us<br>Privacy<br>Term of Service</p>
+	 	</div>
+	 </div>
+</body>
+</html>
